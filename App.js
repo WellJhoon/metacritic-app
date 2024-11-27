@@ -25,10 +25,7 @@ export default function App() {
       <ScrollView contentContainerStyle={styles.scroll}>
         {characters.map((character) => (
           <View key={character.id} style={styles.card}>
-            <Image
-              source={{ uri: character.image }}
-              style={styles.image}
-            />
+            <Image source={{ uri: character.image }} style={styles.image}/>
             <Text style={styles.title}>{character.name}</Text>
             <Text style={styles.info}>Status: {character.status}</Text>
             <Text style={styles.info}>Species: {character.species}</Text>
