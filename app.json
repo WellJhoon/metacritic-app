@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "metacritic-app",
-    "slug": "metacritic-app",
+    "name": "rickandmorty-app",
+    "slug": "rickandmorty-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53929fb4-da0f-4135-a8a2-89dbc2c2ff15"
+      }
     }
   }
 }
